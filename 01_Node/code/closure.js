@@ -9,6 +9,8 @@ function webRequest(request) {
   });
 }
 // simuliranje zahteva
-webRequest({ id: 1 });
+var req = { id: 1 };
+webRequest(req);
 // simuliranje zahteva
-webRequest({ id: 2 });
+req.id=2;
+webRequest(req);

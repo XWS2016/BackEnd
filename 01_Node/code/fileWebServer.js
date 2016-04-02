@@ -22,9 +22,16 @@ http.createServer(function(req, res) {
         send404(res);
         return;
       }
-      res.writeHead(200, {
-        'content-type': 'text/html'
-      });
+      if(fileurl.substr(-3)==='css'){
+        res.writeHead(200, {
+          'content-type': 'text/css'
+        });        
+      }
+      else{
+        res.writeHead(200, {
+          'content-type': 'text/html'
+        });
+      }
       fs.createReadStream(filepath).pipe(res);
     });
   } else {
