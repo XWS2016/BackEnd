@@ -1,0 +1,14 @@
+{
+  "name": "hello_express",
+  "version": "1.0.0",
+  "description": "aplikacija koja ilustruje osnovne funkcionalnosti Express.js framework-a",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Milan Segedinac",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "items",
+  "version": "1.0.0",
+  "description": "Express.js aplikacija koja ilustruje rutiranje",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Milan Segedinac",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  }
+}
