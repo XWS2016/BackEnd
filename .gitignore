@@ -4,3 +4,6 @@
 /02_REST_servisi/code/staticServer/node_modules
 /02_REST_servisi/code/parameters/node_modules
 /02_REST_servisi/code/items/node_modules
+/02_REST_servisi/code/mongoClientPrimer/node_modules
+/02_REST_servisi/code/mongoosePrimer/node_modules
+/02_REST_servisi/code/mongoosePrimer/db
