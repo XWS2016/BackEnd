@@ -1,0 +1,11 @@
+{
+  "name": "mongoose-primer",
+  "version": "0.1.1",
+  "description": "Primer node.js aplikacije koja koristi MongoDB i mongoose",
+  "author": "Milan Segedinac <milan.segedinac@gmail.com>",
+  "dependencies": {
+    "mongoose": "^4.3.7"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
